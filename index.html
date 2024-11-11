@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Meu portfólio</title>
+</head>
+
+<body>
+    <header class="container text-center">
+        <img src="img/IMG1.jpeg" alt="avatar da Fernanda" class="rounded-circle" width="150" height="150"
+            srcset="">
+        <p class="lead">Eu sou Kohler</p>
+        <h1>Eu estudo Engenharia Civil</h1>
+        <p>Meu nome é Kohler, e sou um engenheiro civil lecionado para ajudar com informações e soluções no mundo da construção. Embora eu não possa projetar obras fisicamente, meu objetivo é fornecer conhecimento e apoio a profissionais e estudantes da área.</p>
+        <p>Minhas habilidades</p>
+        <div>
+            <p class="badge bg-secondary">Trabalhos bem feitos</p>
+            <p class="badge bg-secondary">Projetos Realísticos</p>
+            <p class="badge bg-secondary">Cálculos Matemáticos</p>
+        </div>
+    </header>
+    <main class="container mt-5">
+        <h2>Meus projetos</h2>
+        <div class="row">
+            <!-- Projeto 1 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/projeto11.jpeg" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">Projeto 1</h5>
+                        <p class="card-text">Uma planta de uma casa moderna vista de cima, com linhas limpas e um design minimalista. A estrutura é retangular, com um telhado plano que se destaca pelo uso de materiais sustentáveis, como madeira e concreto. As janelas grandes, dispostas de forma estratégica, permitem a entrada de luz natural e oferecem vistas panorâmicas do exterior.
+                        </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Projeto 2 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/projeto22.jpeg" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">Projeto 2</h5>
+                        <p class="card-text">Uma casa moderna, com uma fachada imponente e minimalista, totalmente revestida em concreto branco. A estrutura retangular apresenta linhas retas e uma silhueta marcante, destacando-se pela simplicidade e elegância.</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal2">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projeto 3 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/projeto33.jpeg" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">Projeto 3</h5>
+                        <p class="card-text">EEste projeto Scratch cria uma experiência interativa educativa sobre
+                            astronomia, permitindo aos usuários explorar informações sobre constelações, eclipses, e a
+                            forma da Terra através de cenários dinâmicos e diálogos informativos.
+                        </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal3">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Modal 1 -->
+    <div class="modal" id="modal1" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Projeto 1</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Uma planta de uma casa moderna vista de cima, com linhas limpas e um design minimalista. A estrutura é retangular, com um telhado plano que se destaca pelo uso de materiais sustentáveis, como madeira e concreto. As janelas grandes, dispostas de forma estratégica, permitem a entrada de luz natural e oferecem vistas panorâmicas do exterior.</p>
+                    <p>No centro da planta, um espaço aberto conecta a sala de estar, a sala de jantar e a cozinha, promovendo uma sensação de amplitude e fluidez. As áreas sociais são cercadas por paredes de vidro, criando uma integração visual com o espaço externo. Um corredor leva a áreas privativas, como os quartos, que oferecem conforto e privacidade.</p>
+                    <p>Um detalhe interessante é a inclusão de um pequeno jardim interno, visível a partir de diversos cômodos, trazendo um toque de natureza para dentro da casa. As instalações são planejadas de forma a otimizar o espaço, com armários embutidos e áreas de armazenamento inteligentes.</p>
+                    <p>Essa planta é um exemplo perfeito de como a arquitetura moderna pode criar um lar que é ao mesmo tempo funcional e esteticamente agradável, priorizando a luz, o espaço e a conexão com a natureza.</p>
+                    <img src="img/projeto11.jpeg" class="img-fluid w-100"
+                        alt="Imagem representativa do projeto de uma biblioteca online">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6uDG3sCMzvAaTohGNVvGF_m_Gp0S3v6iMZQ&s">Ver projeto ao vivo</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 2 -->
+    <div class="modal" id="modal2" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Projeto 2</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Uma casa moderna, com uma fachada imponente e minimalista, totalmente revestida em concreto branco. A estrutura retangular apresenta linhas retas e uma silhueta marcante, destacando-se pela simplicidade e elegância.</p>
+                    <p>A entrada é marcada por uma porta grande e discreta, feita de madeira escura que contrasta com a brancura do concreto. À sua frente, janelas amplas, com molduras sutis, permitem a entrada abundante de luz natural, criando um ambiente interno iluminado e acolhedor.</p>
+                    <p>O telhado plano complementa o design contemporâneo, enquanto a ausência de ornamentos exagerados reforça a estética limpa e moderna. A fachada é suavizada pela presença de um pequeno jardim linear na base, com plantas de baixo crescimento que adicionam um toque de verde ao visual.</p>
+                    <p>Essa casa é um exemplo perfeito de como o concreto branco pode ser usado de maneira audaciosa e sofisticada, criando um lar que é ao mesmo tempo simples e impactante, refletindo um estilo de vida moderno e minima</p>
+                    <img src="img/projeto22.jpeg" class="img-fluid w-100"
+                        alt="Imagem representativa do projeto de uma biblioteca online">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6uDG3sCMzvAaTohGNVvGF_m_Gp0S3v6iMZQ&s">Ver projeto ao
+                        vivo</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 3 -->
+    <div class="modal" id="modal3" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Projeto 3</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Uma casa moderna que combina a robustez da pedra com um design contemporâneo. A fachada é uma mistura harmoniosa de grandes painéis de pedra natural em tons terrosos e uma estrutura de concreto liso. Essa combinação cria uma estética única que evoca tanto força quanto elegância.</p>
+                    <p>A entrada é acolhedora, com uma porta de madeira escura que se destaca contra a textura rústica da pedra. Janelas amplas, emolduradas por molduras discretas, proporcionam vistas panorâmicas e uma abundância de luz natural, contrastando com a solidez da pedra.</p>
+                    <p>O telhado plano adiciona um toque moderno, enquanto a varanda frontal, com piso de madeira, convida à contemplação e ao relaxamento. Elementos de paisagismo, como arbustos e gramados bem cuidados, cercam a casa, suavizando as linhas rígidas da estrutura. Essa casa não é apenas um abrigo; ela é uma declaração de estilo que celebra a beleza natural da pedra, integrando-se perfeitamente ao ambiente ao redor e refletindo um estilo de vida contemporâneo e acolhedor.</p>
+                    <img src="img/projeto33.jpeg" alt="Projeto 3" class="img-fluid w-100">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnI9plbh6-9ciN4Mpyl2xIwB65liAAg3_gX5t1kV-4YcDrx5jx1E-Sc2fFiWom6ajr83Y&usqp=CAU">Ver projeto ao vivo</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="container py-5">
+        <h2>Entre em contato</h2>
+        <div>
+            <i class="bi bi-github"></i>
+            <a href="https://github.com/Kohlerzin">GitHub</a>
+        </div>
+        <p class="my-5 text-center">© Copyright 2024. Produzido por Fernando Kohler</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
